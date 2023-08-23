@@ -29,7 +29,17 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         [ex1Btn,ex2Btn,ex3Btn]
+        self.navigationItem.rightBarButtonItem = .init(image: .init(systemName: "map"), style: .plain, target: self, action: #selector(Self.goMapTapped(_:)))
     }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
+    
+    @objc func goMapTapped(_ sender: UIBarButtonItem){
+        let vc = MapVC()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
     func currying(num:Int)->(UIAction)->UIButton{
         let configureExBtn: (UIAction)->UIButton = {[weak self] action in
             guard let self else {
