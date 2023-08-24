@@ -30,11 +30,23 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         [ex1Btn,ex2Btn,ex3Btn]
         self.navigationItem.rightBarButtonItem = .init(image: .init(systemName: "map"), style: .plain, target: self, action: #selector(Self.goMapTapped(_:)))
+        self.navigationItem.leftBarButtonItem = .init(image: .init(systemName: "popcorn"), style: .plain, target: self, action: #selector(Self.goMovies(_:)))
     }
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
     }
     
+    @objc func goMovies(_ sender:UIBarButtonItem){
+        let alert = UIAlertController(title: "어디로 갈래?", message: nil, preferredStyle: .actionSheet)
+        alert.addAction(.init(title: "메인 뷰", style: .default){ [weak self] _ in
+            self?.navigationController?.pushViewController(MovieMainVC(), animated: true)
+        })
+        alert.addAction(.init(title: "로그인 뷰", style: .default){[weak self] _ in
+            self?.present(MovieLoginVC(), animated: true)
+        })
+        alert.addAction(.init(title: "취소", style: .cancel))
+        self.present(alert,animated: true)
+    }
     @objc func goMapTapped(_ sender: UIBarButtonItem){
         let vc = MapVC()
         self.navigationController?.pushViewController(vc, animated: true)
