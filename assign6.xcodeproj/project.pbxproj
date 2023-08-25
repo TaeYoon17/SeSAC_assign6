@@ -14,6 +14,15 @@
 		6337D9202A949A34006CFF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6337D91F2A949A34006CFF7E /* Assets.xcassets */; };
 		6337D9232A949A34006CFF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6337D9212A949A34006CFF7E /* LaunchScreen.storyboard */; };
 		6337D92C2A949A94006CFF7E /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6337D92B2A949A94006CFF7E /* SnapKit */; };
+		6337D92E2A949CD6006CFF7E /* Example1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337D92D2A949CD6006CFF7E /* Example1VC.swift */; };
+		6337D9312A94AC18006CFF7E /* Example2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6337D9302A94AC18006CFF7E /* Example2VC.swift */; };
+		633EB3E32A9639CF00514839 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EB3E22A9639CF00514839 /* MapVC.swift */; };
+		633EB3E62A963D3000514839 /* Theather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EB3E52A963D3000514839 /* Theather.swift */; };
+		633EB3E82A963DBA00514839 /* MapResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EB3E72A963DBA00514839 /* MapResources.swift */; };
+		633EB3EA2A96458500514839 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EB3E92A96458500514839 /* LocationService.swift */; };
+		633EB3EC2A964F4600514839 /* LocationAuthProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EB3EB2A964F4600514839 /* LocationAuthProtocol.swift */; };
+		63BF03752A973C4B0038BB71 /* MovieMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF03742A973C4B0038BB71 /* MovieMainVC.swift */; };
+		63BF03772A973D3B0038BB71 /* MovieLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF03762A973D3B0038BB71 /* MovieLoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		6337D91F2A949A34006CFF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6337D9222A949A34006CFF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6337D9242A949A34006CFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6337D92D2A949CD6006CFF7E /* Example1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1VC.swift; sourceTree = "<group>"; };
+		6337D9302A94AC18006CFF7E /* Example2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2VC.swift; sourceTree = "<group>"; };
+		633EB3E22A9639CF00514839 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		633EB3E52A963D3000514839 /* Theather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theather.swift; sourceTree = "<group>"; };
+		633EB3E72A963DBA00514839 /* MapResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResources.swift; sourceTree = "<group>"; };
+		633EB3E92A96458500514839 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		633EB3EB2A964F4600514839 /* LocationAuthProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAuthProtocol.swift; sourceTree = "<group>"; };
+		63BF03742A973C4B0038BB71 /* MovieMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMainVC.swift; sourceTree = "<group>"; };
+		63BF03762A973D3B0038BB71 /* MovieLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieLoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,9 @@
 		6337D9152A949A33006CFF7E /* assign6 */ = {
 			isa = PBXGroup;
 			children = (
+				63BF03732A973C3A0038BB71 /* ThursDatSnapKit */,
+				633EB3E42A9639D300514839 /* Map&Location */,
+				6337D92F2A949CD9006CFF7E /* SnapKitEX_VC */,
 				6337D9162A949A33006CFF7E /* AppDelegate.swift */,
 				6337D9182A949A33006CFF7E /* SceneDelegate.swift */,
 				6337D91A2A949A33006CFF7E /* ViewController.swift */,
@@ -67,6 +88,36 @@
 				6337D9242A949A34006CFF7E /* Info.plist */,
 			);
 			path = assign6;
+			sourceTree = "<group>";
+		};
+		6337D92F2A949CD9006CFF7E /* SnapKitEX_VC */ = {
+			isa = PBXGroup;
+			children = (
+				6337D92D2A949CD6006CFF7E /* Example1VC.swift */,
+				6337D9302A94AC18006CFF7E /* Example2VC.swift */,
+			);
+			path = SnapKitEX_VC;
+			sourceTree = "<group>";
+		};
+		633EB3E42A9639D300514839 /* Map&Location */ = {
+			isa = PBXGroup;
+			children = (
+				633EB3E22A9639CF00514839 /* MapVC.swift */,
+				633EB3E52A963D3000514839 /* Theather.swift */,
+				633EB3E72A963DBA00514839 /* MapResources.swift */,
+				633EB3E92A96458500514839 /* LocationService.swift */,
+				633EB3EB2A964F4600514839 /* LocationAuthProtocol.swift */,
+			);
+			path = "Map&Location";
+			sourceTree = "<group>";
+		};
+		63BF03732A973C3A0038BB71 /* ThursDatSnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				63BF03742A973C4B0038BB71 /* MovieMainVC.swift */,
+				63BF03762A973D3B0038BB71 /* MovieLoginVC.swift */,
+			);
+			path = ThursDatSnapKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633EB3EC2A964F4600514839 /* LocationAuthProtocol.swift in Sources */,
+				633EB3E62A963D3000514839 /* Theather.swift in Sources */,
 				6337D91B2A949A33006CFF7E /* ViewController.swift in Sources */,
+				63BF03772A973D3B0038BB71 /* MovieLoginVC.swift in Sources */,
+				633EB3E32A9639CF00514839 /* MapVC.swift in Sources */,
+				6337D92E2A949CD6006CFF7E /* Example1VC.swift in Sources */,
 				6337D9172A949A33006CFF7E /* AppDelegate.swift in Sources */,
+				633EB3E82A963DBA00514839 /* MapResources.swift in Sources */,
 				6337D9192A949A33006CFF7E /* SceneDelegate.swift in Sources */,
+				63BF03752A973C4B0038BB71 /* MovieMainVC.swift in Sources */,
+				633EB3EA2A96458500514839 /* LocationService.swift in Sources */,
+				6337D9312A94AC18006CFF7E /* Example2VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,11 +358,13 @@
 				DEVELOPMENT_TEAM = 3W9F68ZTUJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = assign6/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "날씨를 가져오기 위해서 필요해용~";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "날씨를 가져오기 위해서 필요해용~";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,9 +372,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ii.assign6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,11 +391,13 @@
 				DEVELOPMENT_TEAM = 3W9F68ZTUJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = assign6/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "날씨를 가져오기 위해서 필요해용~";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "날씨를 가져오기 위해서 필요해용~";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,9 +405,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ii.assign6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
